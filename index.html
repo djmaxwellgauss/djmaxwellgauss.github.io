@@ -8,43 +8,49 @@
     <meta name="description" content="DESCRIPTION___">
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="_style.css">
+<style>
+ /**
+ * Fix
+ * Version 0.1.1
+ * https://github.com/jaydenseric/Fix
+*/
+ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:1;font-family:sans-serif}iframe{border:0}main{display:block}ol,ul{margin-top:0;margin-bottom:0;padding-left:0}li{display:block}dl{margin-top:0;margin-bottom:0}dd{margin-left:0}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:0;font-size:inherit}blockquote{margin:0;padding:0}p{margin-top:0;margin-bottom:0}sup{position:relative;top:-.5em;vertical-align:baseline;font-size:75%;line-height:0}strong{font-weight:700}figure{margin:0}img{border:0;max-width:100%;height:auto;vertical-align:middle}a{text-decoration:none;color:inherit}button{border:0;margin:0;padding:0;text-align:inherit;text-transform:inherit;font:inherit;-webkit-font-smoothing:inherit;letter-spacing:inherit;background:0 0;cursor:pointer;overflow:visible}::-moz-focus-inner{border:0;padding:0}
+/**
+http://nicolasgallagher.com/micro-clearfix-hack/
+*/ 
+.cf:before,.cf:after{content: " ";display: table}
+.cf:after{clear:both}
+.cf {*zoom:1} 
+/**
+Own CSS-selectors start from here
+*/
+ *{margin:0}
+  html,body{height:100%}
+  body,main,header,nav,section,article,footer,.push{width:100%;max-width:100%}
+  main{width:90%;margin:0 auto;min-height:100%;height:auto !important;height:100%}
+  body{font:16px 'Open Sans',Arial,Sans-Serif,Serif}
+  header{margin-bottom:15px}
+  footer,.push{height:30px}
+  footer{text-align:center;line-height:30px;font-size:12px}
+  footer section img#splash{border:solid 1px #CCC}
+  img,video{max-width:100%;height:auto;border:0}
+  @media(max-width:915px){
+   main{width:960px;max-width:100%;margin:0 auto}
+   header{margin-bottom:15px} 
+ }
+ </style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="_script.js"></script>
 </head>
 <body>
-	<div class="headline">
-		<div>
-			<a href="/" id="logo">HTML5 Templates</a>
-			<div class="description">
-				<h1>"Hello World" Web Page With HTML Boilerplate</h1>
-				<p>Download this package to kickstart any web project. It's using normalize.css reset, includes jQuery and Modernizr, analytics, icons and more.<br />It saves time and assures that your project will be up to date using the latest trends and requirements.
-				</p>
-			</div>
-			<div id="devices">
-				<a id="desktop" class="active" title="Desktop view"> </a>
-				<a id="tablet" title="Tablet view"> </a>
-				<a id="tabletl" title="Tablet landscape view"> </a>
-				<a id="mobile" title="Mobile view"> </a>
-				<a id="mobilel" title="Mobile landscape view"> </a>
-			</div>
-			<a class="download" title="Zip package" href="https://html5-templates.com/download/html5-boilerplate.zip">Download</a>
-			<a class="closeheader" title="Hide header">&#10148;</a>
-			<div class="clearboth">
-			</div>
-		</div>
-	</div>
-	<div id="mainWrapper">
-		<div id="device">	
-			<div id="wrapIframe">
-				<iframe id="demoFrame" src="https://html5-templates.com/demo/html5-boilerplate/">Iframes not supported</iframe>
-			</div>
-		</div>
-	</div>
-	<div id="footerke">
-		<span>&copy; This template can be downloaded and edited for free as long as you're linking back to html5-templates.com</span>
-		<span class="mobileOnly">&copy; HTML5-Templates.com</span>
-	</div>
+<header>djmaxwellgauss</header>
+<nav></nav>
+<main>
+<div>djmaxwellgauss will be in - soon...</div>
+	
+</main>
+<footer></footer>	
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XX82QD2DG8"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-XX82QD2DG8');</script>
 </body>
 </html>
